@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mazoezi ya Button Hover</title>
+    <style>
+        body {
+            background-color: #111;
+            text-align: center;
+            padding: 50px;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: #8a2be2;
+        }
+
+        /* BUTTON 1: INABADILI RANGI */
+        .btn1 {
+            background-color: #8a2be2;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            margin: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .btn1:hover {
+            background-color: #ff0000;
+        }
+
+        /* BUTTON 2: INAKUA */
+        .btn2 {
+            background-color: #0000ff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            margin: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .btn2:hover {
+            transform: scale(1.2);
+        }
+
+        /* BUTTON 3: INAPANDA JUU */
+        .btn3 {
+            background-color: #00ff00;
+            color: black;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            margin: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .btn3:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px #00ff00;
+        }
+
+        /* BUTTON 4: INATOA MWANGA */
+        .btn4 {
+            background-color: transparent;
+            color: #8a2be2;
+            padding: 15px 30px;
+            border: 2px solid #8a2be2;
+            border-radius: 8px;
+            margin: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .btn4:hover {
+            background-color: #8a2be2;
+            color: white;
+            box-shadow: 0 0 20px #8a2be2;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mazoezi ya Button Hover</h1>
+    
+    <button class="btn1">Badili Rangi</button>
+    <button class="btn2">Kua Kidogo</button>
+    <button class="btn3">Panda Juu</button>
+    <button class="btn4">Toa Mwanga</button>
+
+    <br><br>
+    <a href="gallery.html" class="btn1">Rudi Gallery</a>
+
+</body>
+  </html>
